@@ -94,8 +94,24 @@ function listMajors(auth) {
         </head>
         <body>
 
-        ${row[0]}, ${row[1]}, ${row[2]}, ${row[3]} ${row[4]}
+        <h1>Employee Report</h1>
         
+        <table class="sheetTable">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Employee ID</th>
+          <th>Department ID</th>
+          <th>Salary</th>
+        </tr>
+        <tr>
+          <td>${row[0]}</td> 
+          <td>${row[1]}</td> 
+          <td>${row[2]}</td>
+          <td>${row[3]}</td>
+          <td>${row[4]} </td> 
+        </tr>
+        </table>
         </body>
         </html>`;
         
