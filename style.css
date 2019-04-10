@@ -1,0 +1,30 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: normal;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px, 20px 20px 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  
+}
+
+.photo {
+    justify-content: center;
+    display: flex;
+    padding: 20px, ;
+}
