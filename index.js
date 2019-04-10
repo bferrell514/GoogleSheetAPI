@@ -83,7 +83,7 @@ function listMajors(auth) {
       
       // Print columns A and E, which correspond to indices 0 and 4.
       rows.map((row) => {
-        
+          
         let googleSheetData =  
         `<!DOCTYPE html>
         <html>
@@ -95,6 +95,9 @@ function listMajors(auth) {
         <body>
 
         <h1>Employee Report</h1>
+        <div class='photo'>
+          <img src='./images/${row[0]}.png'>
+        </div>
         
         <table class="sheetTable">
         <tr>
